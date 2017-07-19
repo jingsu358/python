@@ -9,7 +9,7 @@ reload(sys)
 #sys.setdefaultencoding("utf8")
 
 es = Elasticsearch(
-    ['10.10.21.82'],
+    ['XX.XX.XX.XX'],
     port=9200
 )
 
