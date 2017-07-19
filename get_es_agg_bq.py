@@ -14,6 +14,7 @@ es = Elasticsearch(
 )
 
 
+
 def get_request_time(index, uri):
     agg_json = {
         "request_time_count": {
